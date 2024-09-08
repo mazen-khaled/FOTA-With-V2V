@@ -1,4 +1,5 @@
 # FOTA with V2V Updates for STM32
+The purpose of this project, undertaken at Benha University, Shoubra Faculty of Engineering, Computer Department, under the supervision of Dr. May Salama, is to design and implement a secure Firmware Over-The-Air (FOTA) system with Vehicle-to-Vehicle (V2V) updates. By addressing a real-world issue faced by Toyota in 2014, this project aims to develop an efficient solution utilizing STM32 microcontrollers, ESP-NOW protocol for communication, and advanced AES encryption and OTP for security. The project's significance lies in enhancing the reliability and security of automotive software updates. Expected outcomes include improved vehicle communication protocols and a fully functional PCB design using Altium.
 
 ## Introduction
 This project aims to solve the software update challenges in modern vehicles by introducing a Firmware Over-The-Air (FOTA) solution with added Vehicle-to-Vehicle (V2V) update capability. The project uses STM32 microcontrollers and ESP-NOW for wireless communication, ensuring both security and reliability through AES encryption and OTP-based verification.
