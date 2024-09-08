@@ -190,6 +190,6 @@ In the STM32 microcontroller, the bootloader plays a crucial role in ensuring th
 We designed the custom PCB required for this project using Altium Designer. The PCB integrates the STM32 microcontroller, ESP module for V2V communication, and a LCD . The design focuses on reliability, ease of manufacturing, and proper signal routing to ensure optimal performance during the update process.
 
   <p align="center">
-    <img src="https://github.com/user-attachments/assets/ae2e7b05-1568-4d33-9c06-d7c5210153eb" alt="Picture3" width="440"/>
-    <img src="https://github.com/user-attachments/assets/24e85ad9-b6db-4b16-8bc7-aa200023d1c7" alt="Picture3" width="560"/>
+    <img src="https://github.com/user-attachments/assets/ae2e7b05-1568-4d33-9c06-d7c5210153eb" alt="Picture3" width="500"/>
+    <img src="https://github.com/user-attachments/assets/24e85ad9-b6db-4b16-8bc7-aa200023d1c7" alt="Picture3" width="500"/>
   </p>
