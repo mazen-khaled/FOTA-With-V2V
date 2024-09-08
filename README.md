@@ -41,7 +41,7 @@ Once Vehicle 1 is updated, it can wirelessly transmit the same firmware to nearb
   <img src="https://github.com/user-attachments/assets/79b43e7d-4196-4fff-91a1-73881e88b464" alt="Picture3" width="600"/>
   </p>
 
-## Bootloader in STM32: (My Part)
+## Bootloader in STM32:
 A bootloader is a small program that runs before the main application code in an embedded system. It is responsible for managing the process of loading and updating firmware. 
 In the STM32 microcontroller, the bootloader plays a crucial role in ensuring that firmware updates, like those in our FOTA project, are carried out securely and correctly.
 
@@ -185,7 +185,7 @@ In the STM32 microcontroller, the bootloader plays a crucial role in ensuring th
   4) Write Flash: The bootloader writes the received data to the Flash memory in blocks, ensuring each block is written correctly by verifying it after each write operation.
   5) Verification and Completion: After all firmware blocks have been written, the bootloader verifies the integrity of the entire firmware image. If everything is correct, it marks the update as successful and reboots the microcontroller to run the new application code.
 
-## PCB Design with Altium (My Part)
+## PCB Design with Altium
 We designed the custom PCB required for this project using Altium Designer. The PCB integrates the STM32 microcontroller, ESP module for V2V communication, and a LCD . The design focuses on reliability, ease of manufacturing, and proper signal routing to ensure optimal performance during the update process.
 
   <p align="center">
